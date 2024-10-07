@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Life</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        /* Estilo para a imagem do botão */
+        .imagem-botao {
+            width: 100px; /* ajuste a largura conforme necessário */
+            height: auto; /* mantém a proporção da imagem */
+        }
+
+        /* Estilo para centralizar o botão */
+        .centralizado {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0; /* espaçamento acima e abaixo */
+        }
+
+        /* Estilo para a mensagem */
+        #mensagem {
+            background-color: red;
+            color: white;
+            text-align: center;
+            font-size: 24px; /* tamanho da fonte maior */
+            padding: 10px; /* espaçamento interno */
+            display: none; /* começa oculto */
+            margin-top: 20px; /* espaçamento acima */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portal para Hogwarts: Descubra o Encanto de Harry Potter</h1>
+        <p>Explorando as histórias, personagens e mistérios do universo bruxo.</p>
+    </header>
+    <main>
+        <article>
+            <h1>A Magia Começa</h1>
+            <img src="https://sm.ign.com/ign_br/cover/h/harry-pott/harry-potter-the-series_s6p5.jpg" alt="" id="harry">
+            <p>Harry Potter, um garoto órfão, vive com os tios, os Dursley, que o tratam mal. Em seu décimo primeiro aniversário, ele recebe uma carta de Hogwarts, revelando que é um bruxo. Essa descoberta transforma sua vida, levando-o a um mundo mágico cheio de aventuras.</p>
+            <h2>Início de uma nova História</h2>
+            <img src="https://rollingstone.com.br/media/uploads/harry_pedra_filosofal_reprod.jpg" alt="" id="img2">
+            <p>Após receber a carta, Harry vai a Hogwarts, onde faz amigos como Ron e Hermione. Ele descobre suas habilidades mágicas, participa de aulas e se envolve em aventuras, incluindo enfrentar o temido Voldemort e descobrir mais sobre seu passado.</p>
+            <h2>Pedra Filosofal</h2>
+            <img src="https://sm.ign.com/ign_br/screenshot/default/harry-potter-pedra-filosofal-cinema-2021_fh6c.jpg" alt="" id="img2">
+            <p>No primeiro ano, Harry descobre a existência da Pedra Filosofal, um objeto mágico capaz de conceder imortalidade. Junto com Ron e Hermione, ele investiga os mistérios que cercam a pedra e descobre que Voldemort deseja obtê-la para recuperar seu poder. Após enfrentar diversos desafios, como um enorme cão de três cabeças e um jogo de xadrez mágico, Harry finalmente confronta Quirinus Quirrell, que está possuído por Voldemort. Com bravura e a ajuda de seus amigos, ele protege a pedra e aprende a importância da amizade e da coragem.</p>
+            <h2>E aí, agora se interessou no bruxinho?</h2>
+            <div class="centralizado">
+                <button onclick="mostrarMensagem()">
+                    <p>clique aqui</p>
+                    <img src="https://imgcdn.stablediffusionweb.com/2024/4/8/bd7942a7-4039-4381-9d3a-94ab33b076af.jpg" alt="Clique aqui" class="imagem-botao">
+                </button>
+            </div>
+            
+            <p id="mensagem">Tá me devendo um beijo!</p>
+            
+            <script>
+                function mostrarMensagem() {
+                    document.getElementById("mensagem").style.display = "block";
+                }
+            </script>
+        </article>
+    </main>
+    <footer><a href="#" target="_blank">@FELIPE FERNANDES</a></footer>
+</body>
+</html>

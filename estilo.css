@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Protest+Strike&display=swap');
+*{
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(45deg, black, rgb(50, 136, 178), black, black);
+    color: white;
+    font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 100px;
+  padding: 10px;
+ 
+}
+header > p, h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+main {
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.337);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: justify;
+    text-indent: 15px;
+    overflow: hidden; /* Limpa o float */
+}
+#harry{
+    padding: 20px;
+    height: 40%; /* ajuste conforme necessário */
+    width: 300px; /* mantém a proporção */
+    display: block;
+    margin: 0 auto;
+}
+article h1,h2 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: none; /* Remove a sombra do texto */
+    text-align: center;
+}
+#img2{
+    padding: 20px;
+    height: 40%; /* ajuste conforme necessário */
+    width: 500px; /* mantém a proporção */
+    display: block;
+    margin: 0 auto;
+}
+main > article > p {
+    padding-bottom: 10px;
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.9em;
+}
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color:rgb(50, 136, 178);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
